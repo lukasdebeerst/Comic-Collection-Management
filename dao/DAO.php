@@ -3,7 +3,10 @@
 class DAO {
 
   // Properties
- 
+  private static $dbHost = "";
+  private static $dbName = "";
+  private static $dbUser = "";
+  private static $dbPass = "";
 
   private static $sharedPDO;
   protected $pdo;
