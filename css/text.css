@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "silk-serif";
+    src: url("../assets/fonts/SilkSerif-Bold.ttf");
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("../assets/fonts/Lato-Regular.ttf");
+}
+
+
+
+html {
+    font-family: "lato", Helvetica, Arial, sans-serif;
+}
+
+.headerTitle {
+    font-size: 26px;
+    margin: 5px 0 5px 0;
+    color: var(--primaryColor);
+    font-family: 'silk-serif', Arial, Helvetica, sans-serif;
+}
+
+.headerSubTitle {
+    color: var(--secundaryColor);
+    font-size: 12px;
+}
+
+.smallTitle {
+    font-size: 21px;
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+.inputTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.inputError {
+    color: var(--errorColor);
+}
+
+.pageTitle {
+    color: var(--titleColor);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pageTitle--index {
+    text-align: start;
+    color: var(--secundaryColor);
+    margin-top: 20px;
+}
+
+.homeScreen__navigation--title {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.js__input--error {
+    color: var(--errorColor);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

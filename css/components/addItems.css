@@ -1,0 +1,210 @@
+.admin__addBulk--pageContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+.admin__deleteBulk--subtitle {
+    text-align: center;
+}
+
+.deleteBulk__form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.deleteBulk__button {
+    width: 300px;
+    background-color: var(--errorColor)
+}
+
+.deleteBulk__form {
+    display: flex;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.addItems__container {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.addItems__Outsidecontainer {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-flow: column;
+
+    margin: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.addItems__button--selected {
+    background-color: var(--secundaryColor);
+}
+
+.addItems__category--button {
+    width: 150px;
+}
+
+.addItems__empty {
+    font-size: 21px;
+    color: var(--succesColor);
+}
+
+.inputField__description {
+    resize: vertical;
+}
+
+.addItems__submit {
+    display: flex;
+    justify-content: center;
+}
+
+.addItems__Pagetitle {
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.addItems__form--content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.addItems__form {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+.input_objects--container {
+    display: flex;
+    flex-flow: column;
+}
+
+.input_objects--items {
+    display: flex;
+    flex-flow: row;
+    gap: 25px;
+}
+
+.input_objects--item {
+    display: flex;
+    flex-flow: column;
+}
+
+.js__error {
+    margin-top: 20px;
+}
+
+.deleteBulk__total {
+    font-weight: bold;
+}
+
+.deleteBulk__countContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.deleteBulk__count--category {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.deleteBulk__count--categoryItem {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+}
+
+.deleteBulk__itemContainer {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.deleteBulk__itemsContainer {
+    margin-top: 20px;
+}
+
+.admin__addBulk--uploadContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.inputField__file {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.addItems__zoomContainer {
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.addItemDelete__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.addItemDelete__button {
+    margin-top: 20px;
+}
+
+.addItems__addempty--icon {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.addItems__headerContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+}
+
+.addItems__shuffle {
+    background: none;
+    border: none;
+    font-size: 18px;;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.addItems__verplicht {
+    margin-bottom: 10px;
+}
+
+.deleteBulk__Category--title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    color: var(--titleColor);
+}
+
+.deleteBulk__Category {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.deleteBulk__Category--label {
+    margin-top: 10px;
+}

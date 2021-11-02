@@ -1,0 +1,20 @@
+:root{
+
+    /* colors */
+    --primaryColor: #EB563E;
+    --secundaryColor: #0D1B2A;
+    --headerTextColor: #0D1B2A;
+    --backgroundColor: #F4F4F5;
+    --errorColor: #AA1800;
+    --titleColor: #788AA3;
+    --succesColor: #4BB543;
+
+    /* text */
+    --mainText: Helvetica, Arial, sans-serif;
+
+
+    /* shadows */
+    --mainShadow: 0 2px 3px rgba(0,0,0,0.2);
+    --headerShadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+

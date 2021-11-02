@@ -1,0 +1,312 @@
+.results__container {
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+
+}
+
+.results__header {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+.results__nav--item {
+    margin-left: 5px;
+}
+
+.results__nav--item--selected {
+    color: var(--primaryColor);
+}
+
+.results__error {
+    text-align: center;
+    color: var(--errorColor);
+    font-size: 21px;
+}
+
+.results__content--list {
+    display: grid;
+    grid-template-columns: 250px 100px 250px 250px 250px 250px;
+    margin-top: 15px;
+}
+
+.results__content--list--delete {
+    display: grid;
+    grid-template-columns: 50px 250px 100px 250px 250px 250px 250px;
+    margin-top: 15px;
+    align-items: center;
+}
+.results__list--container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.results__content--location {
+    display: grid;
+    grid-template-columns: 250px 100px 250px 250px 250px;
+    margin: 15px;
+}
+
+.results__content--title {
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+.results__content--item {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    
+}
+
+.results__photo--content {
+    width: 280px;
+    height: 300px;
+    box-shadow: var(--mainShadow);
+    display: flex;
+    flex-flow: column;
+    border: solid 2px lightgray;
+    text-align: center;
+}
+
+.results__photo--photo {
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.results__photo--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.results__photo--data {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.results__photo--title {
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* fiche */
+
+.fiche__content {
+    display: flex;
+    flex-flow: row;
+   justify-content: space-between;
+   margin-top: 2vw;
+}
+
+.fiche__content--photo {
+    display: flex;
+    flex-flow: column;
+}
+
+.fiche__content--title {
+    font-size: 21px;
+    color: var(--titleColor);
+    margin-bottom: 1vw;
+}
+
+.fiche__content--table {
+    display: grid;
+    grid-template-columns: repeat(2, 5vw);
+    grid-gap: .7vw;
+    margin-top: .5vw;
+    margin-bottom: 1vw;
+}
+
+.fiche__content--description {
+    margin-bottom: 1vw;
+}
+
+.fiche--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+.fiche--container--content {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 10px;
+}
+
+.fiche--container--title {
+    text-align: start;
+}
+
+
+.fiche__content--image {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .fiche__content--image:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .imageZoom__container {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .imageZoom__image {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .imageZoom__image {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .imageZoom__close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .imageZoom__close:hover,
+  .imageZoom__close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.results__contentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fiche__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results__error {
+    color: var(--errorColor);
+    text-align: center;
+    margin: 5px;
+}
+
+.results__content--photoButton {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 250px;
+}
+
+.ficheItem__Itemtitel {
+    font-weight: bolder;
+}
+
+.results__photo--link {
+    text-decoration: none;
+    color: black;
+}
+
+.results__photo--link--title {
+    color: var(--primaryColor);
+}
+
+.results__fiche--shuffle {
+    background: none;
+    border: none;
+    cursor: pointer;   
+}
+
+
+.results__header__controlsContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fiche__header--container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fiche__header--actions {
+    display: flex;
+    flex-flow: row;
+   gap: 20px;
+}
+.fiche__content--title--format{
+    margin-top: 10px;
+}
+
+.results__content--delete--image {
+    margin-bottom: 20px;
+}
+
+.results__delete--container {
+    display: flex;
+    flex-flow: column;
+}
+
+.results__delete--button {
+    width: 250px;
+    background-color: var(--errorColor);
+}
+
+.delete__SelectAll {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.fiche__content--headerSubContent {
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+}

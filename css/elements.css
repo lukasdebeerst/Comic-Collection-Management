@@ -1,0 +1,87 @@
+.card {
+    background-color: white;
+    box-shadow: var(--mainShadow);
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.button1 {
+    background-color: var(--primaryColor);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.link {
+    color: black;
+    font-weight: normal;
+}
+
+.inputField {
+    border-radius: 25px;
+    border: 2px solid grey;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.inputField__search {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    box-shadow: var(--mainShadow);
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.inputField__search--small {
+    width: 100px;
+    height: 25px;
+}
+
+.inputField__search--large {
+    width: 250px;
+    height: 25px;
+}
+
+.input__size--container {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.inputField__spacer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.users__detail--formContainer {
+    background-color: black;
+}
+
+.mainContainer {
+    margin: 5px;
+    width: 100%;
+}
+
+.succesMessage {
+
+    display: flex;
+    justify-content: center;
+}
+
+.succesMessage--text {
+    background-color: var(--succesColor);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+
+
+

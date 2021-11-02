@@ -1,0 +1,103 @@
+.users__container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.users__pageTitle {
+    font-size: 28px;
+
+}
+
+.allUsers {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.user__card {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    height: 50px;
+    width: 300px;
+    margin: 10px auto;
+    color: black;
+    text-decoration: none;
+}
+
+.user__card--name {
+    font-weight: bold;
+}
+
+.users__content--title {
+    font-size: 28px;
+    text-align: start;
+}
+
+.users__detail--headerContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.users__content--formItem {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+
+}
+
+.users__detail--container {
+    width: 100%;
+}
+
+.users__form--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5px;
+}
+
+.users__newUser--link {
+    color: black;
+}
+
+.users__allUsers {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.users__emptyUser {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.users__delete--message {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.admin__users--succes {
+    color: var(--succesColor);
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+.admin__deleteUser--pageContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.deleteUser__button {
+    width: 250px;
+    margin-top: 20px;
+}

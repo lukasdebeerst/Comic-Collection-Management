@@ -1,0 +1,103 @@
+.homeScreenContainer {
+   margin: 0 auto;
+}
+
+.homeScreen__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeScreen__header--link {
+    margin-left: 10px;
+    color: black;
+}
+
+
+.homeScreen__search {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.homeScreen__searchField {
+    width: 50vw;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    box-shadow: var(--mainShadow);
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.homeScreen__search--label {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: 21px;
+
+}
+
+.homeScreen__searchButton {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.homeScreen__navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.homeScreen__navigation--row {
+    display: flex;
+    flex-flow: row;
+}
+
+.homeScreen__button {
+    display:inline-block;
+    height: 150px;
+    width: 200px;
+    color: white;
+    text-decoration: none;    
+    font-size: 21px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.homeScreen__button--search {
+    background-color: var(--secundaryColor);
+}
+
+
+.homeScreen__button--text {
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+
+.homeScreen__button--primary {
+    background-color: var(--primaryColor);
+}
+
+.homeScreen__button--delete {
+    background-color: var(--errorColor);
+}
+
+.handleiding__section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.handleiding__title {
+    font-weight: bold;
+}

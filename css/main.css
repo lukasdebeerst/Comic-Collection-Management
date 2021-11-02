@@ -1,0 +1,23 @@
+@import './reset.css';
+@import './variables.css';
+@import './text.css';
+@import './elements.css';
+
+
+/* components */
+@import './components/layout.css';
+@import './components/authentication.css';
+@import './components/homeScreen.css';
+@import './components/search.css';
+@import './components/results.css';
+@import './components/addItems.css';
+@import './components/admin.css';
+@import './components/deleteItem.css';
+@import './components/users.css';
+@import './components/updateItems.css';
+@import './components/settings.css';
+
+.hide {
+    display: none;
+}
+

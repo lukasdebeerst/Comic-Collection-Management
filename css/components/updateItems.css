@@ -1,0 +1,21 @@
+.updateItems__container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.updateItems {
+    width: 100%;
+}
+
+.updateItems__submit {
+    width: 200px;
+}
+
+.updateItems__verplicht {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
